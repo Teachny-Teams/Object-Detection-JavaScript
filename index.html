@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ML5 Object Detection</title>
+  <!-- P5.js import -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <!-- ML5.js import -->
+  <script src="https://unpkg.com/ml5@0.7.1/dist/ml5.min.js"></script>
+  <!-- Stylesheet link -->
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <!-- Header -->
+  <center>
+    <h1>OBJECT DETECTOR</h1>
+  </center>
+  <p>
+    <!-- Button for turing user video on or off -->
+    <button class="pulse" id="toggleVideoBtn" onclick="toggleVideo()">Hide Video</button>
+    <!-- Button to start/stop detecting objects -->
+    <button class="pulse red" id="toggleDetectingBtn" onclick="toggleDetecting()">Start Detecting</button>
+  </p>
+  <!-- App.js import -->
+  <script src="app.js" defer></script>
+  <!-- Main component -->
+  <div id="main"></div>
+</body>
+
+</html>
